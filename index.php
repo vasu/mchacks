@@ -138,7 +138,7 @@ if(isset($_POST['submit']))
 <footer>
 	<div class="grid-container">
 		<div class="grid-100 mobile-grid-100">
-			<h3>McHacks is organized by <a href="http://hackmcgill.com">HackMcGill</a> and <a href="http://csus.cs.mcgill.ca/">CSUS</a>. Design by <a href="http://prokoudine.com">Mark</a> and <a href="http://xav.io">Xavier</a>. For sponsorship inquiries, contact <a href="mailto:sponsorship@mchacks.io">sponsorship@mchacks.io</a>.</h3>
+			<h3>McHacks is organized by <a href="http://hackmcgill.com">HackMcGill</a> and <a href="http://csus.cs.mcgill.ca/">CSUS</a>. <a href="https://github.com/markprokoudine/mchacks">Github.</a> Design by <a href="http://prokoudine.com">Mark</a> and <a href="http://xav.io">Xavier</a>. For sponsorship inquiries, contact <a href="mailto:sponsorship@mchacks.io">sponsorship@mchacks.io</a>.</h3>
 			<br/>
 			<!--<h4>Every curl is a golden idea.</h4>-->
 		</div>
