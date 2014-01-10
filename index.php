@@ -1,13 +1,4 @@
-<?php
-
-include 'php/config.php';
-
-if(isset($_POST['submit']))
-{
-	$result = signup_post();
-}
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -62,23 +53,13 @@ if(isset($_POST['submit']))
 	<div class="grid-container">
 
 		<div class="grid-100 mobile-grid-100" id="teaser">
-			<?php if (isset($result)): ?>
-				<?php if($result['error'] != false): ?>
-					<div class="result-well result-well-error">
-						<?= $result['error']; ?>
-					</div>
-				<?php else: ?>
-					<div class="result-well result-well-success">
-						<?= $result['message']; ?>
-					</div>
-				<?php endif; ?>
-			<?php endif; ?>
 			<h1>
 				<span class="highlight-faint">Feb 22-23/2014</span> at McGill.
 				<span class="highlight-faint">$30k</span> prizes, <span class="highlight-faint">500</span> hackers. À Montréal, mon chéri.
 				Canada's <span class="highlight" data-typer-targets="official student,most aesthetic,most badass,best,coolest,biggest,tastiest,most hip,best dressed,best judged,zestiest,most Canadian">biggest</span> hackathon.
 			</h1>
 		</div>
+		<div class="clear clearfix"></div>
 		<div class="grid-25 mobile-grid-95">
 			<h3>Who's invited?</h3>
 			<p>If you're an undergraduate from any university, from any country, you're welcome! If you're in high school or a grad student, get in touch with us and we'll do this on a case by case basis. Bring Student ID!</p>
@@ -99,6 +80,7 @@ if(isset($_POST['submit']))
 			<p>Anything goes! Web, desktop, mobile, and hardware projects are all welcome. (All hacks should be computer-related, though.) Projects will be judged based on creativity, technical difficulty, polish, and usefulness.</p>
 		</div>
 
+		<div class="clear clearfix"></div>
 		<div class="grid-25 mobile-grid-95">
 			<h3>Can I keep working on a past project?</h3>
 			<p>No, start fresh. If you do decide to skirt this rule, let us know so we can judge your work fairly. Using third-party APIs and libraries is definitely okay, as long as they're accessible by everyone else as well.</p>
@@ -121,16 +103,19 @@ if(isset($_POST['submit']))
 	</div>
 </section>
 
-<section>
-	<div class="sponsor giga" >
+
+<section class="sponsors">
+	<h1>Sponsors</h1>
+	<div class="giga" >
+		<img src="./assets/images/morgan_stanley.png" />
 	</div>
-	<div class="sponsor evangelist">
-			<img src="assets/digitalocean.png" />
-	</div>
-	<div class="sponsor seed" >
-		<img src="assets/mongodb.png" />
-		<img src="assets/sendgrid.png" />
-	</div>
+	<span class="evangelist">
+			<img src="./assets/images/digital_ocean.png" />
+	</span>
+	<span class="seed" >
+		<img src="./assets/images/mongodb.png" />
+		<img src="./assets/images/sendgrid.png" />
+	</span>
 </section>
 
 <footer>
