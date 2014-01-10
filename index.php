@@ -116,7 +116,7 @@ if(isset($_POST['submit']))
 		 
 		<div class="grid-25 mobile-grid-95">
 			<h3>What if I'm a noob?</h3>
-			<p>This is a great oppurtunity for you to learn how to hack! We'll have lots of evangelists walking around and some fantastic tech talks lined up. Please note that we only reimburse travel if you submit a hack.</p>
+			<p>This is a great opportunity for you to learn how to hack! We'll have lots of evangelists walking around and some fantastic tech talks lined up. Please note that we only reimburse travel if you submit a hack.</p>
 		</div>
 		 
 		<div class="grid-25 mobile-grid-95">
