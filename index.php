@@ -45,8 +45,6 @@ if(isset($_POST['submit']))
 	</div>
 </header>
 
-<div class="clear"></div>
-
 <section id="faq">
 	<div class="grid-container">
 		<div class="grid-100 mobile-grid-100 button-wrapper" id="pre-register">
@@ -60,8 +58,6 @@ if(isset($_POST['submit']))
 			</form>
 		</div>
 	</div>
-
-	<div class="clear"></div>
 
 	<div class="grid-container">
 
@@ -83,10 +79,6 @@ if(isset($_POST['submit']))
 				Canada's <span class="highlight" data-typer-targets="official student,most aesthetic,most badass,best,coolest,biggest,tastiest,most hip,best dressed,best judged,zestiest,most Canadian">biggest</span> hackathon.
 			</h1>
 		</div>
- 
-		<div class="clear clearfix"></div>
-		<hr>
-
 		<div class="grid-25 mobile-grid-95">
 			<h3>Who's invited?</h3>
 			<p>If you're an undergraduate from any university, from any country, you're welcome! If you're in high school or a grad student, get in touch with us and we'll do this on a case by case basis. Bring Student ID!</p>
@@ -107,8 +99,6 @@ if(isset($_POST['submit']))
 			<p>Anything goes! Web, desktop, mobile, and hardware projects are all welcome. (All hacks should be computer-related, though.) Projects will be judged based on creativity, technical difficulty, polish, and usefulness.</p>
 		</div>
 
-		<div class="clear clearfix"></div>
-
 		<div class="grid-25 mobile-grid-95">
 			<h3>Can I keep working on a past project?</h3>
 			<p>No, start fresh. If you do decide to skirt this rule, let us know so we can judge your work fairly. Using third-party APIs and libraries is definitely okay, as long as they're accessible by everyone else as well.</p>
@@ -128,19 +118,26 @@ if(isset($_POST['submit']))
 			<h3>My question isn't answered here.</h3>
 			<p>Hit us up via <a href="mailto:contact@mchacks.io">email</a>, <a href="http://twitter.com/hack_mcgill">Twitter</a>, or <a href="http://facebook.com/mcgillhacks">Facebook</a>.</p>
 		</div>
-
-		<div class="clear clearfix"></div>
 	</div>
 </section>
 
-<div class="clear clearfix"></div>
+<section>
+	<div class="sponsor giga" >
+	</div>
+	<div class="sponsor evangelist">
+			<img src="assets/digitalocean.png" />
+	</div>
+	<div class="sponsor seed" >
+		<img src="assets/mongodb.png" />
+		<img src="assets/sendgrid.png" />
+	</div>
+</section>
 
 <footer>
 	<div class="grid-container">
 		<div class="grid-100 mobile-grid-100">
 			<h3>McHacks is organized by <a href="http://hackmcgill.com">HackMcGill</a> and <a href="http://csus.cs.mcgill.ca/">CSUS</a>. Design by <a href="http://prokoudine.com">Mark</a> and <a href="http://xav.io">Xavier</a>. For sponsorship inquiries, contact <a href="mailto:sponsorship@mchacks.io">sponsorship@mchacks.io</a>.</h3>
-			<br/>
-			<!--<h4>Every curl is a golden idea.</h4>-->
+  		<!--<h4>Every curl is a golden idea.</h4>-->
 		</div>
 	</div>
 </footer>
