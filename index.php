@@ -104,25 +104,29 @@
 </section>
 
 
-<section class="sponsors">
+<section class="sponsors grid-container">
 	<h1>Sponsors</h1>
-	<div class="giga" >
+<!-- 	<div class="giga" >
 		<img src="./assets/images/morgan_stanley.png" />
+	</div> -->
+	<div class="giga grid-100 push-25" >
+		<img class="" src="./assets/images/morgan_stanley.png" />
 	</div>
-	<span class="evangelist">
+	<div class="evangelist grid-100 push-25">
 			<img src="./assets/images/digital_ocean.png" />
-	</span>
-	<span class="seed" >
+<!-- 	</div>
+ -->	<span class="seed" >
 		<img src="./assets/images/mongodb.png" />
 		<img src="./assets/images/sendgrid.png" />
 	</span>
+	</div>
 </section>
 
 <footer>
 	<div class="grid-container">
 		<div class="grid-100 mobile-grid-100">
 			<h3>McHacks is organized by <a href="http://hackmcgill.com">HackMcGill</a> and <a href="http://csus.cs.mcgill.ca/">CSUS</a>. Design by <a href="http://prokoudine.com">Mark</a> and <a href="http://xav.io">Xavier</a>. For sponsorship inquiries, contact <a href="mailto:sponsorship@mchacks.io">sponsorship@mchacks.io</a>.</h3>
-  		<!--<h4>Every curl is a golden idea.</h4>-->
+  		<!--<hx4>Every curl is a golden idea.</h4>-->
 		</div>
 	</div>
 </footer>
