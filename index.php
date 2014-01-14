@@ -36,6 +36,20 @@
 	</div>
 </header>
 
+<section class="sponsors grid-container">
+	<h1>Sponsors</h1>
+	<div class="giga grid-100 push-25" >
+		<img class="" src="./assets/images/morgan_stanley.png" />
+	</div>
+	<div class="evangelist grid-100 push-25">
+			<img src="./assets/images/digital_ocean.png" />
+<span class="seed" >
+		<img src="./assets/images/mongodb.png" />
+		<img src="./assets/images/sendgrid.png" />
+	</span>
+	</div>
+</section>
+
 <section id="faq">
 	<div class="grid-container">
 		<div class="grid-100 mobile-grid-100 button-wrapper" id="pre-register">
@@ -100,25 +114,6 @@
 			<h3>My question isn't answered here.</h3>
 			<p>Hit us up via <a href="mailto:contact@mchacks.io">email</a>, <a href="http://twitter.com/hack_mcgill">Twitter</a>, or <a href="http://facebook.com/mcgillhacks">Facebook</a>.</p>
 		</div>
-	</div>
-</section>
-
-
-<section class="sponsors grid-container">
-	<h1>Sponsors</h1>
-<!-- 	<div class="giga" >
-		<img src="./assets/images/morgan_stanley.png" />
-	</div> -->
-	<div class="giga grid-100 push-25" >
-		<img class="" src="./assets/images/morgan_stanley.png" />
-	</div>
-	<div class="evangelist grid-100 push-25">
-			<img src="./assets/images/digital_ocean.png" />
-<!-- 	</div>
- -->	<span class="seed" >
-		<img src="./assets/images/mongodb.png" />
-		<img src="./assets/images/sendgrid.png" />
-	</span>
 	</div>
 </section>
 
