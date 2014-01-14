@@ -1,13 +1,4 @@
-<?php
-
-include 'php/config.php';
-
-if(isset($_POST['submit']))
-{
-	$result = signup_post();
-}
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -45,7 +36,19 @@ if(isset($_POST['submit']))
 	</div>
 </header>
 
-<div class="clear"></div>
+<section class="sponsors grid-container">
+	<h1>Sponsors</h1>
+	<div class="giga grid-100 push-25" >
+		<img class="" src="./assets/images/morgan_stanley.png" />
+	</div>
+	<div class="evangelist grid-100 push-25">
+			<img src="./assets/images/digital_ocean.png" />
+<span class="seed" >
+		<img src="./assets/images/mongodb.png" />
+		<img src="./assets/images/sendgrid.png" />
+	</span>
+	</div>
+</section>
 
 <section id="faq">
 	<div class="grid-container">
@@ -61,32 +64,16 @@ if(isset($_POST['submit']))
 		</div>
 	</div>
 
-	<div class="clear"></div>
-
 	<div class="grid-container">
 
 		<div class="grid-100 mobile-grid-100" id="teaser">
-			<?php if (isset($result)): ?>
-				<?php if($result['error'] != false): ?>
-					<div class="result-well result-well-error">
-						<?= $result['error']; ?>
-					</div>
-				<?php else: ?>
-					<div class="result-well result-well-success">
-						<?= $result['message']; ?>
-					</div>
-				<?php endif; ?>
-			<?php endif; ?>
 			<h1>
 				<span class="highlight-faint">Feb 22-23/2014</span> at McGill.
 				<span class="highlight-faint">$30k</span> prizes, <span class="highlight-faint">500</span> hackers. À Montréal, mon chéri.
 				Canada's <span class="highlight" data-typer-targets="official student,most aesthetic,most badass,best,coolest,biggest,tastiest,most hip,best dressed,best judged,zestiest,most Canadian">biggest</span> hackathon.
 			</h1>
 		</div>
- 
 		<div class="clear clearfix"></div>
-		<hr>
-
 		<div class="grid-25 mobile-grid-95">
 			<h3>Who's invited?</h3>
 			<p>If you're an undergraduate from any university, from any country, you're welcome! If you're in high school or a grad student, get in touch with us and we'll do this on a case by case basis. Bring Student ID!</p>
@@ -108,7 +95,6 @@ if(isset($_POST['submit']))
 		</div>
 
 		<div class="clear clearfix"></div>
-
 		<div class="grid-25 mobile-grid-95">
 			<h3>Can I keep working on a past project?</h3>
 			<p>No, start fresh. If you do decide to skirt this rule, let us know so we can judge your work fairly. Using third-party APIs and libraries is definitely okay, as long as they're accessible by everyone else as well.</p>
@@ -128,19 +114,14 @@ if(isset($_POST['submit']))
 			<h3>My question isn't answered here.</h3>
 			<p>Hit us up via <a href="mailto:contact@mchacks.io">email</a>, <a href="http://twitter.com/hack_mcgill">Twitter</a>, or <a href="http://facebook.com/mcgillhacks">Facebook</a>.</p>
 		</div>
-
-		<div class="clear clearfix"></div>
 	</div>
 </section>
-
-<div class="clear clearfix"></div>
 
 <footer>
 	<div class="grid-container">
 		<div class="grid-100 mobile-grid-100">
-			<h3>McHacks is organized by <a href="http://hackmcgill.com">HackMcGill</a> and <a href="http://csus.cs.mcgill.ca/">CSUS</a>. <a href="https://github.com/markprokoudine/mchacks">Github.</a> Design by <a href="http://prokoudine.com">Mark</a> and <a href="http://xav.io">Xavier</a>. For sponsorship inquiries, contact <a href="mailto:sponsorship@mchacks.io">sponsorship@mchacks.io</a>.</h3>
-			<br/>
-			<!--<h4>Every curl is a golden idea.</h4>-->
+			<h3>McHacks is organized by <a href="http://hackmcgill.com">HackMcGill</a> and <a href="http://csus.cs.mcgill.ca/">CSUS</a>. Design by <a href="http://prokoudine.com">Mark</a> and <a href="http://xav.io">Xavier</a>. For sponsorship inquiries, contact <a href="mailto:sponsorship@mchacks.io">sponsorship@mchacks.io</a>.</h3>
+  		<!--<hx4>Every curl is a golden idea.</h4>-->
 		</div>
 	</div>
 </footer>
