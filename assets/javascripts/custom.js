@@ -10,6 +10,7 @@ $(function()
     $('[data-typer-targets]').typer();
 
     // registration toggle
+    /*
     $("#pre-register").click(function()
     {
       $(this).fadeOut(100, function()
@@ -17,6 +18,7 @@ $(function()
         $("#register").fadeIn();
       });
     });
+    */ 
 });
 
 function load_site()
