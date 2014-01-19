@@ -245,19 +245,26 @@ hr
 	border-bottom: 1px solid #ccc;
 	text-align: center
 }
-.sponsors > .giga,.evangelist,.seed {
+.sponsors > .giga,.mega,.evangelist,.seed {
 	padding: 10px 0;
-
+}
+.sponsors .mega > img {
+	max-width: 100%;
+	min-width: 200px;
+	display:block;
+	margin: auto;
 }
 .sponsors .giga > img {
-	max-width: 50%;
+	max-width: 100%;
 	min-width: 200px;
-	/*margin-left:25%;  hack until more logos are added */
+	display:block;
+	margin: auto;
 }
 .sponsors .evangelist >img  {
 	max-width: 25%;
 	min-width: 150px;
-	/*margin-left:25%;  hack until more logos are added */
+	display:block;
+	margin:auto;
 }
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
@@ -266,9 +273,14 @@ hr
 .sponsors img:hover {
 	-webkit-filter: grayscale(0.0);
 }
+.sponsors .seed {
+	margin:auto;
+}
 .sponsors .seed > img {
 	max-width: 12.5%;
 	min-width: 75px;
+	display:inline-block;
+	margin:auto;
 }
 footer
 {
