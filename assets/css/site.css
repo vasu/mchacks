@@ -277,6 +277,7 @@ hr
 	margin:auto;
 }
 .sponsors .seed > img {
+	/*max-width: 12.5%;*/
 	max-width: 12.5%;
 	min-width: 75px;
 	display:inline-block;
