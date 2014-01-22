@@ -247,42 +247,55 @@ hr
 }
 .sponsors > .giga,.mega,.evangelist,.seed {
 	padding: 10px 0;
+
 }
-.sponsors .mega > img, .sponsors .mega > a img {
-	max-width: 100%;
-	min-width: 200px;
+ .giga a,.mega a,.evangelist a,.seed a {
+	display:inline-block;
+	float:left;
+	padding: 10px 0;
+}
+ .giga a img,.mega a img,.evangelist a img,.seed a img {
 	display:block;
 	margin: auto;
 }
-.sponsors .giga > img, .sponsors .giga > a img {
+.sponsors .giga > a {
+	width:100%;
+}
+.sponsors .mega > a {
+	width: 50%;
+}
+.sponsors .evangelist > a {
+	width: 100%;
+}
+.sponsors .seed > a {
+	width: 25%;
+}
+.sponsors .giga > a img {
 	max-width: 100%;
 	min-width: 200px;
-	display:block;
-	margin: auto;
 }
-.sponsors .evangelist > img, .sponsors .evangelist > a img  {
-	max-width: 25%;
+.sponsors .mega > a img {
+	max-width: 100%;
+	min-width: 200px;
+}
+.sponsors .evangelist > a img  {
+	max-width: 40%;
 	min-width: 150px;
-	display:block;
+}
+
+.sponsors .seed > a img 
+{
+	max-width: 50%;
+	min-width: 75px;
 	margin:auto;
 }
+
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
 	padding: 0 5px;
 }
 .sponsors img:hover {
 	-webkit-filter: grayscale(0.0);
-}
-.sponsors .seed {
-	margin:auto;
-}
-.sponsors .seed > img, .sponsors .seed > a img 
-{
-	/*max-width: 12.5%;*/
-	max-width: 12.5%;
-	min-width: 75px;
-	display:inline-block;
-	margin:auto;
 }
 footer
 {
