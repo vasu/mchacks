@@ -248,19 +248,19 @@ hr
 .sponsors > .giga,.mega,.evangelist,.seed {
 	padding: 10px 0;
 }
-.sponsors .mega > img {
+.sponsors .mega > img, .sponsors .mega > a img {
 	max-width: 100%;
 	min-width: 200px;
 	display:block;
 	margin: auto;
 }
-.sponsors .giga > img {
+.sponsors .giga > img, .sponsors .giga > a img {
 	max-width: 100%;
 	min-width: 200px;
 	display:block;
 	margin: auto;
 }
-.sponsors .evangelist >img  {
+.sponsors .evangelist > img, .sponsors .evangelist > a img  {
 	max-width: 25%;
 	min-width: 150px;
 	display:block;
@@ -276,7 +276,8 @@ hr
 .sponsors .seed {
 	margin:auto;
 }
-.sponsors .seed > img {
+.sponsors .seed > img, .sponsors .seed > a img 
+{
 	/*max-width: 12.5%;*/
 	max-width: 12.5%;
 	min-width: 75px;
