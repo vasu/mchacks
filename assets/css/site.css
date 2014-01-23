@@ -311,6 +311,7 @@ hr
 }
 .mashery {
 	margin-top: -2em;
+	padding-bottom: 0 !important;
 }
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
