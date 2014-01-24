@@ -279,7 +279,7 @@ hr
 	width: 50%;
 }
 .sponsors .evangelist > a {
-	width: 50%;
+	width: 33.3333%;
 }
 .sponsors .seed > a {
 	width: 20%;
@@ -293,7 +293,7 @@ hr
 	min-width: 200px;
 }
 .sponsors .evangelist > a img  {
-	max-width: 75%;
+	max-width: 100%;
 	min-width: 150px;
 }
 
@@ -303,8 +303,14 @@ hr
 	min-width: 75px;
 	margin:auto;
 }
-.shopify {
+.center {
 	padding: 10px 25% !important;
+}
+.seed > .center {
+	padding: 10px 40% !important;
+}
+.ericsson { 
+	margin: -1em;
 }
 .shopify > img {
 	max-width: 75% !important;
