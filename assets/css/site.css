@@ -3,7 +3,7 @@
 
 body
 {
-	font-family: "centrale_sansmedium", Arial;
+	font-family: "centrale_sansmedium", 'Helvetica Neue',Arial;
 	text-align:left;
 	background: #fff;
 }
@@ -40,7 +40,8 @@ header
 
 h1,h2,h3
 {
-	font-family: "centrale_sansbold";
+	font-family: "centrale_sansbold",'Helvetica Neue';
+	font-weight: 900;
 }
 
 h1
