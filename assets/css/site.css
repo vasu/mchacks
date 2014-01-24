@@ -3,7 +3,7 @@
 
 body
 {
-	font-family: "centrale_sansmedium", Arial;
+	font-family: "centrale_sansmedium", 'Helvetica Neue',Arial;
 	text-align:left;
 	background: #fff;
 }
@@ -40,7 +40,8 @@ header
 
 h1,h2,h3
 {
-	font-family: "centrale_sansbold";
+	font-family: "centrale_sansbold",'Helvetica Neue';
+	font-weight: 900;
 }
 
 h1
@@ -261,12 +262,13 @@ hr
 }
 .sponsors > .giga,.mega,.evangelist,.seed {
 	padding: 10px 0;
+	border-top: 1px solid #ccc;
 
 }
  .giga a,.mega a,.evangelist a,.seed a {
 	display:inline-block;
 	float:left;
-	padding: 10px 0;
+	padding: 30px 0;
 }
  .giga a img,.mega a img,.evangelist a img,.seed a img {
 	display:block;
