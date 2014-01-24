@@ -303,6 +303,12 @@ hr
 	min-width: 75px;
 	margin:auto;
 }
+.shopify {
+	padding: 10px 25% !important;
+}
+.shopify > img {
+	max-width: 75% !important;
+}
 .stickermule {
 	margin-top: 1.5em;
 }
