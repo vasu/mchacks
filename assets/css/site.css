@@ -260,14 +260,15 @@ hr
 	border-bottom: 1px solid #ccc;
 	text-align: center
 }
-.sponsors > .giga,.mega,.evangelist,.seed {
+.sponsors .giga,.mega,.evangelist,.seed {
 	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
 
 }
  .giga a,.mega a,.evangelist a,.seed a {
 	display:inline-block;
 	float:left;
-	padding: 10px 0;
+	padding: 30px 0;
 }
  .giga a img,.mega a img,.evangelist a img,.seed a img {
 	display:block;
