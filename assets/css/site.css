@@ -279,7 +279,7 @@ hr
 	width: 50%;
 }
 .sponsors .evangelist > a {
-	width: 100%;
+	width: 50%;
 }
 .sponsors .seed > a {
 	width: 20%;
@@ -293,7 +293,7 @@ hr
 	min-width: 200px;
 }
 .sponsors .evangelist > a img  {
-	max-width: 40%;
+	max-width: 75%;
 	min-width: 150px;
 }
 
