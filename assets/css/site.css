@@ -334,7 +334,7 @@ hr
   margin-top: 0.8em;
 }
 .solium > img {
-  max-width: 75%;
+  max-width: 75% !important;
 }
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
