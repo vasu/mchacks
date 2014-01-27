@@ -333,6 +333,9 @@ hr
 .namecheap {
   margin-top: 0.8em;
 }
+.solium > img {
+  max-width: 75%;
+}
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
 	padding: 0 5px;
