@@ -337,7 +337,16 @@ hr
   margin-top: 0.8em;
 }
 .solium > img {
-  max-width: 75% !important;
+  max-width: 70% !important;
+}
+.whisper > img {
+  max-width: 80% !important;
+}
+.hypejar {
+	margin-top: -1em;
+}
+.hypejar > img {
+	max-width: 50% !important;
 }
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
