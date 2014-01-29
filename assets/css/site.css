@@ -348,6 +348,9 @@ hr
 .hypejar > img {
 	max-width: 50% !important;
 }
+.microchip {
+	margin-top: 1em;
+}
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
 	padding: 0 5px;
