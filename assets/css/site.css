@@ -273,6 +273,7 @@ hr
  .giga a img,.mega a img,.evangelist a img,.seed a img {
 	display:block;
 	margin: auto;
+	overflow:auto;
 }
 .sponsors .giga > a {
 	width:100%;
@@ -315,7 +316,7 @@ hr
 	padding: 10px 40% !important;
 }
 .ericsson { 
-	margin: -1em;
+	margin-top: -1em;
 }
 .shopify > img {
 	max-width: 75% !important;
@@ -339,7 +340,13 @@ hr
 .solium > img {
   max-width: 70% !important;
 }
+.whisper {
+	margin-top: -3rem;
+}
 .whisper > img {
+  max-width: 80% !important;
+}
+.palantir > img {
   max-width: 80% !important;
 }
 .hypejar {
@@ -353,7 +360,7 @@ hr
 }
 .sponsors img {
 	-webkit-filter: grayscale(1.0);
-	padding: 0 5px;
+	/*padding: 0 5px;*/
 }
 .sponsors img:hover {
 	-webkit-filter: grayscale(0.0);
