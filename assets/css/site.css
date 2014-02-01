@@ -346,6 +346,9 @@ hr
 .whisper > img {
   max-width: 80% !important;
 }
+.mashape {
+  padding-top:0;
+}
 .palantir > img {
   max-width: 80% !important;
 }
@@ -359,7 +362,7 @@ hr
 	margin-top: 1em;
 }
 .sponsors img {
-	-webkit-filter: grayscale(1.0);
+	-webkit-filter: grayscale(1.0) opacity(0.5);
 	/*padding: 0 5px;*/
 }
 .sponsors img:hover {
