@@ -347,7 +347,7 @@ hr
   max-width: 80% !important;
 }
 .mashape {
-  padding-top:0;
+  padding-top:0 !important;
 }
 .palantir > img {
   max-width: 80% !important;
