@@ -421,24 +421,25 @@ footer a:hover
 }
 
 table {
-	width: 60%;
+	width: 100%;
 	margin: auto;
 	font-size: 1.5rem;
 	font-weight: 800;
+	border: 1px solid #eaeaea;
 }
 tr {
 	margin: 0.5rem 0;
 }
 tr:hover {
-	background: #ccc !important;
+	/*background: #ccc !important;*/
 }
 tr:nth-child(odd){
-	background: #eee;
+	/*background: #eee;*/
 }
 tr > td:first-child {
 	width: 25%;
 	color: #666;
-	padding-right: 10%;
+	padding-left: 25px;
 	text-align: center;
 
 }
@@ -448,17 +449,27 @@ th {
 	background: none;
 }
 td {
-	padding: 0.5rem 0;
+	padding: 10px 0 5px 0;
 	width: 70%;
+	text-align: left !important;
+	border-bottom: 1px solid #eaeaea;
+}
+td span
+{
+	display: block;
+	font-size: 12px;
+	margin-bottom: -10px;
+	color: #aaa;
 }
 td:last-child {
 	padding-left: 10%;
 }
 
 .box {
-	min-height: 30%;
+	/*min-height: 30%;
 	width: 80%;
-	margin: auto;
+	margin: auto;*/
+	margin: 0 12.5%;
 }
 .box  h1 {
 	text-align: center;
