@@ -341,13 +341,13 @@ hr
   max-width: 70% !important;
 }
 .whisper {
-	margin-top: -3rem;
+	margin-top: -2.5rem;
 }
 .whisper > img {
   max-width: 80% !important;
 }
 .mashape {
-  padding-top:0 !important;
+  padding-top:10px !important;
 }
 .palantir > img {
   max-width: 80% !important;
