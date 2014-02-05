@@ -285,6 +285,7 @@ hr
 }
 .sponsors .giga > a {
 	width:100%;
+	min-width: 600px;
 }
 .sponsors .mega > a {
 	width: 50%;
@@ -297,7 +298,7 @@ hr
 }
 .sponsors .giga > a img {
 	max-width: 100%;
-	min-width: 200px;
+	min-width: 600px;
 }
 .sponsors .mega > a img {
 	max-width: 100%;
@@ -368,6 +369,9 @@ hr
 }
 .microchip {
 	margin-top: 1em;
+}
+.vungle img{
+	max-width:600px !important;
 }
 .sponsors img {
 	-webkit-filter: grayscale(1.0) opacity(0.5);
