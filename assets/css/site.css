@@ -297,8 +297,9 @@ hr
 	min-width: 200px;
 }
 .sponsors .evangelist > a img  {
-	max-width: 90%;
+	max-width: 100%;
 	min-width: 150px;
+	height:60px;	
 }
 
 .sponsors .seed > a img 
