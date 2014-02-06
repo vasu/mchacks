@@ -305,7 +305,7 @@ hr
 	min-width: 200px;
 }
 .sponsors .evangelist > a img  {
-	max-width: 100%;
+	max-width: 90%;
 	min-width: 150px;
 }
 
@@ -372,6 +372,9 @@ hr
 }
 .vungle img{
 	max-width:600px !important;
+}
+.leap {
+	padding-top:25px;
 }
 .sponsors img {
 	-webkit-filter: grayscale(1.0) opacity(0.5);
