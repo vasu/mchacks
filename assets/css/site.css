@@ -277,7 +277,6 @@ hr
 }
 .sponsors .giga > a {
 	width:100%;
-	min-width: 600px;
 }
 .sponsors .mega > a {
 	width: 50%;
@@ -289,7 +288,7 @@ hr
 	width: 20%;
 }
 .sponsors .giga > a img {
-	max-width: 100%;
+	max-width: 80%;
 	min-width: 600px;
 }
 .sponsors .mega > a img {
@@ -364,7 +363,7 @@ hr
 	margin-top: 1em;
 }
 .vungle img{
-	max-width:600px !important;
+	/*max-width:600px !important;*/
 }
 .leap {
 	padding-top:25px;
@@ -483,7 +482,7 @@ td:last-child {
 	text-align: center;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 800px) {
 	.giga a,.mega a,.evangelist a,.seed a {
 		width: 100% !important;
 		margin: 0 !imporant;
@@ -505,5 +504,9 @@ td:last-child {
 	}
 	#faq {
 		margin: 0 5%;
+	}
+	.sponsors .giga > a img {
+		min-width: 0 ;
+
 	}
 }
