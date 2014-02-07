@@ -371,6 +371,9 @@ hr
 .datastax {
 	margin-top: 1rem;
 }
+.thalmic {
+	margin-top: 2rem;
+}
 .sponsors img {
 	-webkit-filter: grayscale(1.0) opacity(0.5);
 	/*padding: 0 5px;*/
