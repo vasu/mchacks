@@ -376,6 +376,9 @@ hr
 .smokes {
 	margin-top: -2rem;
 }
+.eightysix img {
+	min-width: 300px;
+}
 .sponsors img {
 	-webkit-filter: grayscale(1.0) opacity(0.5);
 	/*padding: 0 5px;*/
