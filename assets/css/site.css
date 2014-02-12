@@ -289,7 +289,7 @@ hr
 }
 .sponsors .giga > a img {
 	max-width: 80%;
-	min-width: 600px;
+	max-width: 600px;
 }
 .sponsors .mega > a img {
 	max-width: 100%;
@@ -363,7 +363,6 @@ hr
 	margin-top: 1em;
 }
 .vungle img{
-	max-width:400px !important;
 }
 .leap {
 	padding-top:25px;
@@ -515,7 +514,7 @@ td:last-child {
 		margin: 0 5%;
 	}
 	.sponsors .giga > a img {
-		min-width: 0 ;
+		max-width: 100% ;
 
 	}
 }
